@@ -5,12 +5,12 @@ const ChildFile = ({modifyParTxt}) => {
 
     const updateText = (e) =>{
     setchTxt(e.target.value)
-    console.log(e.target.value)
+    // console.log(e.target.value)
 }
 
 const copyToParent = (e) => {
     e.preventDefault()
-    console.log(chTxt)
+    // console.log(chTxt)
     modifyParTxt(chTxt)
 }
 
